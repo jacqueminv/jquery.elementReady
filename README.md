@@ -8,4 +8,4 @@ unobstrusively as soon as an element appears after an AJAX call.
 
 ## License
 
-Unchanged from the source: Licensed under a Creative Commons Attribution-Share Alike 3.0 Unported License (http://creativecommons.org/licenses/by-sa/3.0/)
+Unchanged from the source: Licensed under a Creative Commons Attribution-Share Alike 3.0 Unported License [http://creativecommons.org/licenses/by-sa/3.0/](http://creativecommons.org/licenses/by-sa/3.0/)
