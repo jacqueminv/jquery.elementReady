@@ -90,7 +90,7 @@
 	    if (!interval) {
 		    interval = setInterval(check, $.elementReady.interval_ms);
 	    }
-        if (nbChecks) {
+        if (!nbChecks) {
             nbChecks = $.elementReady.max_checks;
         }
 	    return this;
@@ -115,6 +115,7 @@
 	    if (nbChecks === 0 || checklist.length === 0) {
 		    clearInterval(interval);
 		    interval = null;
+            nbChecks = null;
 	    }
     };
 
